@@ -37,7 +37,7 @@ function gradeQuiz(candidateAnswers) {
 
   //Percentage = (correct / total) * 100
 
-for (let i = 0; i < questions.length; i++) 
+for (let i = 0; i < questions.length; i++) {
   if (candidateAnswers[i].toUpperCase() == correctAnswers[i].toUpperCase()) {
     console.log(`${i+1}) ${questions[i]} \n   Your answer: ${candidateAnswers[i]} \n   Correct anwser: ${correctAnswers[i]}\n`);
     correct ++
